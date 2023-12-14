@@ -11,8 +11,10 @@
 | BanglaBERT   | cleanTEXT, oversampling               | 73%      |
 | BanglaBERT   | lemmatization                        | 67%      |
 | XLM-RoBERTa  | lemmatization                        | 66%      |
+| BanglaBERT   | cleanTEXT, tf-idf, le=2e^-5      | 70%      |
+| BanglaBERT   | cleanTEXT, tf-idf, le=1e^-5       | 71%      |
 
 ## Notes:
-- "Model Name" denotes the name of the deep learning model used.
+- "Model Name" denotes the name of the model used.
 - "Techniques" lists the preprocessing techniques applied to the data.
 - "Accuracy" represents the achieved accuracy on the BEmoC dataset.
